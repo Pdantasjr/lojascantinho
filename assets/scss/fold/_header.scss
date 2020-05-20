@@ -1,0 +1,102 @@
+.content-bar-top {
+  background: #222222;
+  height: auto;
+  width: 100%;
+
+  .link-social-top {
+    position: relative;
+    display: inline-block;
+    font-family: Roboto, sans-serif;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #999999;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  .contact-link-top {
+    position: relative;
+    display: inline-block;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #999999;
+    font-family: Roboto, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+}
+
+.logotype {
+  max-width: 100%;
+  width: 250px;
+  @media(max-width: 600px) {
+    max-width: 100%;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.btn-primary {
+  color: white;
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+
+.client-link {
+  color: #8D8A85;
+  font-family: Flamenco, serif;
+  margin-right: 10px;
+  @media(max-width: 990px) {
+    color: #8D8A85;
+    font-family: Flamenco, serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 5px;
+  }
+  @media(max-width: 384px) {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+}
+
+.primary-menu {
+  height: auto;
+  width: 100%;
+  background-color: $primary-color;
+
+  @media(max-width: 992px) {
+    height: 57px;
+    width: 100%;
+    background-color: $primary-color;
+  }
+
+  .navbar {
+    width: 100%;
+    height: 50px;
+    background-color: $primary-color !important;
+    z-index: 1;
+
+    .navbar-toggler {
+      color: white;
+      box-shadow: inset 0 0 0 1px $primary-color, 0 0 1px rgba(255, 255, 255, 0.1);
+    }
+
+    .primary-link-link {
+      font-family: Flamenco, serif;
+      font-size: 1.3em;
+    }
+  }
+}
+

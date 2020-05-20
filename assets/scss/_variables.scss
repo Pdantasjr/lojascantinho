@@ -1,0 +1,37 @@
+$primary-color: #CD877B;
+$danger-color: #e56852;
+
+$theme-colors: (
+        "primary": $primary-color,
+        "danger": $danger-color
+);
+
+$body-bg: #FBFBFB;
+$body-color: #FBFBFB;
+
+$link-color: white;
+$link-hover-color: #222222;
+
+$navbar-light-active-color: white;
+$navbar-light-disabled-color: white;
+
+$navbar-light-color: white;
+$navbar-light-toggler-border-color: white;
+
+$link-hover-color: $primary-color;
+
+$navbar-toggler-padding-y: .25rem;
+$navbar-toggler-padding-x: .75rem;
+
+
+$brand-primary: white;
+
+$border-radius: .1rem;
+$border-radius-lg: .1rem;
+$border-radius-sm: .1rem;
+
+$input-btn-padding-y: .250rem;
+$input-btn-padding-x: .880rem;
+
+
+//@import "../../node_modules/bootstrap/scss/bootstrap";

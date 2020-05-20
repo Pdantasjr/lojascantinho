@@ -1,0 +1,24 @@
+//fonts
+@font-face {
+  font-family: 'Flamenco';
+  src: url("../fonts/Flamenco-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: Roboto, sans-serif;
+}
+
+a {
+  font-family: Flamenco, serif;
+  font-size: 1.2em;
+}

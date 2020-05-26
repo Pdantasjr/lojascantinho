@@ -1,12 +1,16 @@
+body {
+  overflow-x: hidden;
+}
+
 //fonts
 @font-face {
   font-family: 'Flamenco';
-  src: url("../fonts/Flamenco-Regular.ttf");
+  src: url("../fonts/Flamenco/Flamenco-Regular.ttf");
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url("../fonts/Roboto-Regular.ttf");
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
 }
 
 * {

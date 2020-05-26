@@ -1,0 +1,18 @@
+.comments {
+  width: 100%;
+  height: auto;
+  padding: 2em;
+  background-color: $secondary-color;
+  .lead-img{
+    max-width: 8rem;
+    max-height: 8rem;
+  }
+  .lead-name{
+    font-family: Flamenco, serif;
+    font-size: 3em;
+  }
+  .lead-comment{
+    max-width: 990px;
+    height: auto;
+  }
+}

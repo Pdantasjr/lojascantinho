@@ -9,7 +9,7 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "sass": "^1.26.5",
-    "slick-carousel": "^1.8.1"
+    "tiny-slider": "^2.9.2"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
